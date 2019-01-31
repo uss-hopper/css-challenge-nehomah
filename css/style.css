@@ -81,6 +81,10 @@ header h1, em {
 	display: inline;
 	margin-right: 1em;
 }
+img[alt*="welcome to my homepage"] {
+	display: block;
+	margin: 60px auto;
+}
 
 
 
