@@ -63,14 +63,13 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 body {
-	font-family: moonspace;
+	font-family: monospace;
 }
 
 .container {
-
 }
 .center {
-	display: table;
+	display: inline;
 	height: 100%;
 	width: 100%;
 }
@@ -109,7 +108,7 @@ header h1, em {
 }
 
 img[alt*="welcome to my homepage"] {
-	display; block;
+	display: block;
 	margin: 60px auto;
 }
 
