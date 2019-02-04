@@ -24,7 +24,7 @@
 			<section>
 				<div class="container">
 
-					<!-- WELCOME IMAGE -->
+					<!-- WELCOME IMAGEs -->
 					<img src="images/welcome.gif" alt="welcome to my homepage">
 
 					<div class="instructions-wrapper">
