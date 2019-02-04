@@ -109,8 +109,7 @@ header h1, em {
 
 
 .instructions > .image-wrapper {
-	width: 25%;
-	flex: 0 1 auto;
+	flex: 0 1 55%;
 	margin: 3rem auto;
 	border: 1px solid red;
 	padding: 0 1rem;
@@ -134,7 +133,7 @@ header h1, em {
 }
 
 .instructions > .container > .image-wrapper {
-	/*width: 25%;*/
+	width: 25%;
 	margin: 2rem;
 	min-width: 17rem;
 }
