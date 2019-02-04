@@ -120,22 +120,39 @@ header h1, em {
 	padding: 0 1rem;
 }
 
+.instructions > .container {
+	border: 3px solid black;
+	dispay: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+}
+
+.instructions > .container > .content-wrapper {
+	width: 40%;
+	margin: 2rem;
+	min-width: 17rem;
+	word-wrap: break-word;
+}
+
 .instructions > .container > .image-wrapper {
 	width: 25%;
 	margin: 2rem;
 	min-width: 17rem;
 }
 
+
 /*img[alt*="captain janeway"] */
 
-.instructions-content ol {
-	width: 65%;
-}
+/*.instructions-content ol {*/
+	/*width: 65%;*/
+/*}*/
 
-.instruction-content small:before {
-	content: "\A";
-	white-space: pre;
-}
+/*.instruction-content small:before {*/
+	/*content: "\A";*/
+	/*white-space: pre;*/
+/*}*/
 
 .about-me {
 	color: #fff;
