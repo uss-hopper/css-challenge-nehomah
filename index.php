@@ -24,7 +24,7 @@
 			<section>
 				<div class="container">
 
-					<!-- WELCOME IMAGEs -->
+					<!-- WELCOME IMAGE -->
 					<img src="images/welcome.gif" alt="welcome to my homepage">
 
 					<div class="instructions-wrapper">
@@ -89,12 +89,12 @@
 					<div class="form-wrapper">
 						<h2>Contact Me! I <3 to fix printers!</h2>
 						<form>
-							<div>
-								<label for="name">Name</label>
-							</div>
-							<div>
-								<input type="text" name="name" id="name" />
-							</div>
+								<div>
+									<label for="name">Name</label>
+								</div>
+								<div>
+									<input type="text" name="name" id="name" />
+								</div>
 
 							<div>
 								<label for="emailEmail">Email</label>
@@ -116,11 +116,10 @@
 							<div>
 								<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 							</div>
-
+						</div>
 							<button type="reset">Reset</button>
 							<button type="submit">Send!</button>
-						</form>
-					</div>
+					</form>
 				</div>
 			</section>
 
