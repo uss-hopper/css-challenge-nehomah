@@ -109,7 +109,7 @@ header h1, em {
 
 
 .instructions > .image-wrapper {
-	flex-basis: 55%;
+	width: 25%;
 	flex: 0 1 auto;
 	margin: 3rem auto;
 	border: 1px solid red;
@@ -118,7 +118,7 @@ header h1, em {
 
 .instructions > .container {
 	border: 3px solid black;
-	dispay: flex;
+	display: flex;
 	flex-flow: wrap;
 	align-items: center;
 	justify-content: center;
