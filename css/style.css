@@ -109,7 +109,7 @@ header h1, em {
 
 
 .instructions > .image-wrapper {
-	flex: 0 1 55%;
+	flex: 0 1 auto;
 	margin: 3rem auto;
 	border: 1px solid red;
 	padding: 0 1rem;
