@@ -112,3 +112,107 @@ img[alt*="welcome to my homepage"] {
 	margin: 60px auto;
 }
 
+/** makes the instructions section a flexbox and elements inside to be scalable**/
+
+.instructions-wrapper {
+	display: flex;
+	padding: 1vw;
+	border: solid .25rem #000;
+	margin: 60px auto;
+}
+
+img[alt*="captain janeway"] {
+	flex: auto;
+	flex-flow: row nowrap;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+.instructions-content ol {
+	width: 65%;
+}
+
+.instruction-content small:before {
+	content: "\A";
+	white-space: pre;
+}
+
+.about-me {
+	color: #fff;
+	background-color: #0000ff;
+	padding: 60px;
+}
+
+img[alt*="captain picard"] {
+	float: left;
+	display: inline;
+	vertical-align: middle;
+	background-color: #fff;
+	max-height: 250px;
+	padding: .25vw;
+	margin-right: 20px;
+}
+
+.about-me h2 {
+	display: inline;
+}
+
+.about-me span {
+	color: #ffff00;
+	text-shadow: #000;
+	font-style: italic;
+}
+
+/**styling table elements**/
+
+section:nth-child(4) {
+	padding: 60px;
+}
+
+section:nth-child(4) h2 {
+	padding: 60px;
+}
+
+table {
+	table-layout: auto;
+	width: 100%;
+}
+
+th, td {
+	padding: 1em;
+	color: #00FF00;
+	border: solid .1rem #fff;
+	text-align: left;
+	background-color: #333333;
+}
+
+/** styling the contact form**/
+
+section:nth-child(5) {
+	background-color: #333333;
+	padding: 60px;
+}
+
+.form-wrapper {
+	color: #00FF00;
+	background-color: rgb(0, 100, 0);
+	padding: 30px;
+}
+
+.form-wrapper button {
+	color: #000;
+	background-color: #00FF00;
+	font-weight: bold;
+	padding: 5px 20px;
+	border: none;
+}
+
+/**styling the footer*/
+
+footer {
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	padding: 20px 0;
+	text-align: center;
+}
