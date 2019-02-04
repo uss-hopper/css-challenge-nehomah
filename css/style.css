@@ -46,15 +46,15 @@ img {
 html { display: flex;}
 body { width: 100%;}
 
-.sfooter {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
+/*.sfooter {*/
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*min-height: 100vh;*/
+/*}*/
 
-.sfooter-content {
-	flex: 1 0 auto;
-}
+/*.sfooter-content {*/
+	/*flex: 1 0 auto;*/
+/*}*/
 
 /*****************************************************
 
@@ -92,10 +92,7 @@ header h1, em {
 }
 
 /*INSTRUCTIONS PANEL:*/
-/*img[alt*="welcome to my homepage"] {*/
-	/*display: flex;*/
-	/*margin: 60px auto;*/
-/*}*/
+
 .instructions {
 	width: 100%;
 	margin: 2rem 0;
@@ -106,12 +103,6 @@ header h1, em {
 }
 /** makes the instructions section a flexbox and elements inside to be scalable**/
 
-/*.instructions-wrapper {*/
-	/*display: flex;*/
-	/*padding: 1vw;*/
-	/*border: solid .25rem #000;*/
-	/*margin: 60px auto;*/
-/*}*/
 
 .instructions > .image-wrapper {
 	flex: 0 1 auto;
