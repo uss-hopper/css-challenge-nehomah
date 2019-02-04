@@ -91,19 +91,27 @@ header h1, em {
 	margin-right: 1em;
 }
 
-img[alt*="welcome to my homepage"] {
+/*INSTRUCTIONS PANEL:*/
+/*img[alt*="welcome to my homepage"] {*/
+	/*display: flex;*/
+	/*margin: 60px auto;*/
+/*}*/
+.instructions {
+	width: 100%;
+	margin: 2rem 0;
+	border: 1px solid red;
 	display: flex;
-	margin: 60px auto;
+	flex-direction: column;
+	align-items: center;
 }
-
 /** makes the instructions section a flexbox and elements inside to be scalable**/
 
-.instructions-wrapper {
-	display: flex;
-	padding: 1vw;
-	border: solid .25rem #000;
-	margin: 60px auto;
-}
+/*.instructions-wrapper {*/
+	/*display: flex;*/
+	/*padding: 1vw;*/
+	/*border: solid .25rem #000;*/
+	/*margin: 60px auto;*/
+/*}*/
 
 .instructions > .image-wrapper {
 	flex: 0 1 auto;
