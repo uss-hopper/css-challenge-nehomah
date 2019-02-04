@@ -10,6 +10,11 @@ html, body {
 	box-sizing: border-box;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
@@ -87,28 +92,7 @@ header h1, em {
 }
 
 img[alt*="welcome to my homepage"] {
-	display: block;
-	margin: 60px auto;
-}
-
-.container {
-
-}
-
-header {
-	width: 100%;
-	background-color: #444;
-	color: #00FF00;
-	padding: 2em 0;
-}
-
-header h1, em {
-	display: inline;
-	margin-right: 1em;
-}
-
-img[alt*="welcome to my homepage"] {
-	display: block;
+	display: flex;
 	margin: 60px auto;
 }
 
@@ -121,12 +105,20 @@ img[alt*="welcome to my homepage"] {
 	margin: 60px auto;
 }
 
-img[alt*="captain janeway"] {
-	flex: auto;
-	flex-flow: row nowrap;
-	max-height: 200px;
-	max-width: 100%;
+.instructions > .image-wrapper {
+	flex: 0 1 auto;
+	margin: 3rem auto;
+	border: 1px solid red;
+	padding: 0 1rem;
 }
+
+.instructions > .container > .image-wrapper {
+	width: 25%;
+	margin: 2rem;
+	min-width: 17rem;
+}
+
+/*img[alt*="captain janeway"] */
 
 .instructions-content ol {
 	width: 65%;
@@ -165,12 +157,14 @@ img[alt*="captain picard"] {
 
 /**styling table elements**/
 
+
 section:nth-child(4) {
 	padding: 60px;
 }
 
 section:nth-child(4) h2 {
 	padding: 60px;
+	float: right;
 }
 
 table {
