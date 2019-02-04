@@ -125,7 +125,7 @@ img[alt*="captain janeway"] {
 	flex: auto;
 	flex-flow: row nowrap;
 	max-height: 200px;
-	max-width: 100%;
+	max-width: 100%
 }
 
 .instructions-content ol {

@@ -91,21 +91,29 @@
 						<form>
 							<div>
 								<label for="name">Name</label>
+							</div>
+							<div>
 								<input type="text" name="name" id="name" />
 							</div>
 
 							<div>
 								<label for="emailEmail">Email</label>
+							</div>
+							<div>
 								<input type="email" name="email" id="email" />
 							</div>
 
 							<div>
 								<label for="subject">Subject</label>
+							</div>
+							<div>
 								<input type="text" name="subject" id="subject" />
 							</div>
 
 							<div>
 								<label for="message">Message</label>
+							</div>
+							<div>
 								<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 							</div>
 
