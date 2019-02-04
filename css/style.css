@@ -5,9 +5,9 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
-html, body {
-	margin: 0;
+html {
 	box-sizing: border-box;
+	font-family: monospace;
 }
 
 *, *:before, *:after {
@@ -47,8 +47,13 @@ img {
 ******************************************************/
 
 /*corrects IE min-height bug*/
-html { display: flex;}
-body { width: 100%;}
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
+}
 
 /*.sfooter {*/
 	/*display: flex;*/
@@ -72,7 +77,7 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 body {
-	font-family: monospace;
+	font-family: "monospace";
 }
 
 .container {
